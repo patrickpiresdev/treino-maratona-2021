@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void dislike_of_trees(int k) {
+void dislike_of_threes(int k) {
     int p = 1;
     int n = 1;
     string s;
@@ -27,7 +27,7 @@ int main() {
     }
 
     for(int i=0; i<t; i++) {
-        dislike_of_trees(ns[i]);
+        dislike_of_threes(ns[i]);
     }
 
     return 0;
